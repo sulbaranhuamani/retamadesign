@@ -19,6 +19,14 @@
         content: '';
         display: table;
     }
+    
+    encabezamiento{
+        background: #ff2bb1;
+        width: 100%;
+        clear: both;
+        content: '';
+        display: table;
+    }
 
     /* Logo */
     img{
@@ -60,6 +68,7 @@
         background: #444;
         
     }
+
 }
 
 @media screen and (max-width:1280px){
