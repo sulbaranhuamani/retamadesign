@@ -19,10 +19,14 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 9px;
-
+    
     /*borde de referencia*/
     border-style: null;
     /*border-color: rgb(235, 62, 142);*/
+}
+
+nav{
+    border: 1px solid black;
 }
 
 /* Logo */
