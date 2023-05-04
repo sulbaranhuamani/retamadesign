@@ -21,12 +21,8 @@ header {
     padding: 9px;
     
     /*borde de referencia*/
-    border-style: null;
+    border-style: ridge;
     /*border-color: rgb(235, 62, 142);*/
-}
-
-nav{
-    border: 1px solid black;
 }
 
 /* Logo */
@@ -41,23 +37,38 @@ nav{
 
 
 /* menu */
+nav {
+    justify-content: space-between;
+    align-items: right;
+    margin: 1px;
+}
+
 a {
     text-decoration: none;
-    color: yellow;
+    color: black;
+    border: #714311 1px solid;
 }
 
 /*css texto*/
 nav a {
     height: 75px;
     width: 390px;
+    color: black;
     font-weight: 600;
     padding: 6px;
+}
+
+/*css panqueque*/
+nav svg {
+border: #714311 1px solid;
+
 }
 
 nav a:hover {
     color: aqua;
 }
 
+/**/
 @media screen and (max-width:1920px) {
     
 }
