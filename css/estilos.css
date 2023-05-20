@@ -24,6 +24,7 @@ header {
     position: absolute;
     top: 0;
     right: 0;
+
 }
 .nav-list {
     list-style: none;
@@ -42,7 +43,6 @@ header {
 }
 a {
     color: black;
-    
 }
 .open_menu,
  .close_menu{
@@ -54,9 +54,9 @@ body {
 }
 
 
-/*css burguer*/
+/*css burguer two*/
 nav a:hover {
-    color: aqua;
+    color: rgb(224, 38, 205);
 }
 .bars__menu{
     width: 30px;
@@ -102,6 +102,7 @@ nav a:hover {
         gap: 1rem;
         position: absolute;
         top: 0;
+        height: auto;
         right: 0;
         bottom: 0;
         background-color: aqua;
@@ -121,8 +122,34 @@ nav a:hover {
 }
 
 @media screen and (max-width: 480px) {
-    /*ocultando menu*/
-    .menu {
-        display: none;
-    }
+     /**/
+     .open_menu,
+     .close_menu{display: block;}
+     
+     /*ocultando menu*/
+     .menu {
+         opacity: 0;
+         visibility: hidden;
+         display: flex;
+         flex-direction: column;
+         align-items: end;
+         gap: 1rem;
+         position: absolute;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         background-color: aqua;
+         padding: 2rem;
+         opacity: 1;
+     }
+     .menu.visible{
+         opacity: 1;
+         visibility: visible;
+     }
+ 
+     /*mostrando menu*/
+     .nav-list{
+         flex-direction: column;
+         align-items: end;;
+     }
 }
