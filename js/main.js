@@ -1,26 +1,17 @@
-//js de burguer menu
-/*
-document.querySelector(".bars__menu").addEventListener("click", animateBars);
+// VARIABLES
+const openButton = document.getElementById("open");
+const closeButton = document.getElementById("close");
+const menu = document.getElementById("menu");
 
-var line1__bars = document.querySelector(".line1__bars-menu");
-var line2__bars = document.querySelector(".line2__bars-menu");
-var line3__bars = document.querySelector(".line3__bars-menu");
-
-function animateBars(){
-    line1__bars.classList.toggle("activeline1__bars-menu");
-    line2__bars.classList.toggle("activeline2__bars-menu");
-    line3__bars.classList.toggle("activeline3__bars-menu");
+// FUNCTIONS
+function openMenu() {
+  menu.classList.add("open");
 }
-*/
 
-//
-const menu = document.querySelector("#menu");
-const open = document.querySelector("#open");
-const close = document.querySelector("#close");
+function closeMenu() {
+  menu.classList.remove("open");
+}
 
-open.addEventListener("click", ()=>{
-    menu.classList.add("visible")
-});
-close.addEventListener("click", ()=>{
-    menu.classList.remove("visible")
-});
+// EVENTS
+openButton.addEventListener("click", openMenu);
+closeButton.addEventListener("click", closeMenu);

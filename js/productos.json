@@ -1,0 +1,862 @@
+[
+    {
+        "id":"lenceria-00",
+        "titulo":"Lencería 00",
+        "imagen":"./img/lenceria/00.png",
+        "categoria":{
+            "nombre":"Lencerías",
+            "id":"lencerias"
+        },
+        "precio":130
+    },
+    {
+        "id":"lenceria-01",
+        "titulo":"Lencería 01",
+        "imagen":"./img/lenceria/01.png",
+        "categoria":{
+            "nombre":"Lencerías",
+            "id":"lencerias"
+        },
+        "precio":95
+    },
+    {
+        "id":"lenceria-02",
+        "titulo":"Lencería 02",
+        "imagen":"./img/lenceria/02.png",
+        "categoria":{
+            "nombre":"Lencerías",
+            "id":"lencerias"
+        },
+        "precio":80
+    },
+    {
+        "id": "lenceria-03",
+        "titulo": "Lenceria 03",
+        "imagen": "./img/lenceria/03.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 130
+    },
+    {
+        "id": "lenceria-04",
+        "titulo": "Lenceria 04",
+        "imagen": "./img/lenceria/04.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-05",
+        "titulo": "Lenceria 05",
+        "imagen": "./img/lenceria/05.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-06",
+        "titulo": "Lenceria 06",
+        "imagen": "./img/lenceria/06.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-07",
+        "titulo": "Lenceria 07",
+        "imagen": "./img/lenceria/07.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-08",
+        "titulo": "Lenceria 08",
+        "imagen": "./img/lenceria/08.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-09",
+        "titulo": "Lenceria 09",
+        "imagen": "./img/lenceria/09.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-10",
+        "titulo": "Lenceria 10",
+        "imagen": "./img/lenceria/10.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-11",
+        "titulo": "Lenceria 11",
+        "imagen": "./img/lenceria/11.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-12",
+        "titulo": "Lenceria 12",
+        "imagen": "./img/lenceria/12.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 85
+    },
+    {
+        "id": "lenceria-13",
+        "titulo": "Lenceria 13",
+        "imagen": "./img/lenceria/13.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-14",
+        "titulo": "Lenceria 14",
+        "imagen": "./img/lenceria/14.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-15",
+        "titulo": "Lenceria 15",
+        "imagen": "./img/lenceria/15.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-16",
+        "titulo": "Lenceria 16",
+        "imagen": "./img/lenceria/16.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-17",
+        "titulo": "Lenceria 17",
+        "imagen": "./img/lenceria/17.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-18",
+        "titulo": "Lenceria 18",
+        "imagen": "./img/lenceria/18.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-19",
+        "titulo": "Lenceria 19",
+        "imagen": "./img/lenceria/19.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-20",
+        "titulo": "Lenceria 20",
+        "imagen": "./img/lenceria/20.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 85
+    },
+    {
+        "id": "lenceria-21",
+        "titulo": "Lenceria 21",
+        "imagen": "./img/lenceria/21.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-22",
+        "titulo": "Lenceria 22",
+        "imagen": "./img/lenceria/23.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-24",
+        "titulo": "Lenceria 24",
+        "imagen": "./img/lenceria/24.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-25",
+        "titulo": "Lenceria 25",
+        "imagen": "./img/lenceria/25.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-26",
+        "titulo": "Lenceria 26",
+        "imagen": "./img/lenceria/26.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-27",
+        "titulo": "Lenceria 27",
+        "imagen": "./img/lenceria/27.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-28",
+        "titulo": "Lenceria 28",
+        "imagen": "./img/lenceria/28.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-29",
+        "titulo": "Lenceria 29",
+        "imagen": "./img/lenceria/29.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-30",
+        "titulo": "Lenceria 30",
+        "imagen": "./img/lenceria/30.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-31",
+        "titulo": "Lenceria 31",
+        "imagen": "./img/lenceria/31.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-32",
+        "titulo": "Lenceria 32",
+        "imagen": "./img/lenceria/32.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-33",
+        "titulo": "Lenceria 33",
+        "imagen": "./img/lenceria/33.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-34",
+        "titulo": "Lenceria 34",
+        "imagen": "./img/lenceria/34.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 90
+    },
+    {
+        "id": "lenceria-35",
+        "titulo": "Lenceria 35",
+        "imagen": "./img/lenceria/35.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-36",
+        "titulo": "Lenceria 36",
+        "imagen": "./img/lenceria/36.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-37",
+        "titulo": "Lenceria 37",
+        "imagen": "./img/lenceria/37.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-38",
+        "titulo": "Lenceria 38",
+        "imagen": "./img/lenceria/38.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-39",
+        "titulo": "Lenceria 39",
+        "imagen": "./img/lenceria/39.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-40",
+        "titulo": "Lenceria 40",
+        "imagen": "./img/lenceria/40.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-41",
+        "titulo": "Lenceria 41",
+        "imagen": "./img/lenceria/41.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-42",
+        "titulo": "Lenceria 42",
+        "imagen": "./img/lenceria/42.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-43",
+        "titulo": "Lenceria 43",
+        "imagen": "./img/lenceria/43.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-44",
+        "titulo": "Lenceria 44",
+        "imagen": "./img/lenceria/44.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-45",
+        "titulo": "Lenceria 45",
+        "imagen": "./img/lenceria/45.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-46",
+        "titulo": "Lenceria 46",
+        "imagen": "./img/lenceria/46.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-47",
+        "titulo": "Lenceria 47",
+        "imagen": "./img/lenceria/47.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-48",
+        "titulo": "Lenceria 48",
+        "imagen": "./img/lenceria/48.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-49",
+        "titulo": "Lenceria 49",
+        "imagen": "./img/lenceria/49.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-50",
+        "titulo": "Lenceria 50",
+        "imagen": "./img/lenceria/50.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-51",
+        "titulo": "Lenceria 51",
+        "imagen": "./img/lenceria/51.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-52",
+        "titulo": "Lenceria 52",
+        "imagen": "./img/lenceria/52.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-53",
+        "titulo": "Lenceria 53",
+        "imagen": "./img/lenceria/53.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-54",
+        "titulo": "Lenceria 54",
+        "imagen": "./img/lenceria/54.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-55",
+        "titulo": "Lenceria 55",
+        "imagen": "./img/lenceria/55.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-56",
+        "titulo": "Lenceria 56",
+        "imagen": "./img/lenceria/56.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-57",
+        "titulo": "Lenceria 57",
+        "imagen": "./img/lenceria/57.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-58",
+        "titulo": "Lenceria 58",
+        "imagen": "./img/lenceria/58.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-59",
+        "titulo": "Lenceria 59",
+        "imagen": "./img/lenceria/59.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-60",
+        "titulo": "Lenceria 60",
+        "imagen": "./img/lenceria/60.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-61",
+        "titulo": "Lenceria 61",
+        "imagen": "./img/lenceria/61.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-62",
+        "titulo": "Lenceria 62",
+        "imagen": "./img/lenceria/62.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-63",
+        "titulo": "Lenceria 63",
+        "imagen": "./img/lenceria/63.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-64",
+        "titulo": "Lenceria 64",
+        "imagen": "./img/lenceria/64.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-65",
+        "titulo": "Lenceria 65",
+        "imagen": "./img/lenceria/65.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-66",
+        "titulo": "Lenceria 66",
+        "imagen": "./img/lenceria/66.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 80
+    },
+    {
+        "id": "lenceria-67",
+        "titulo": "Lenceria 67",
+        "imagen": "./img/lenceria/67.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "lenceria-68",
+        "titulo": "Lenceria 68",
+        "imagen": "./img/lenceria/68.png",
+        "categoria": {
+            "nombre": "Lencerias",
+            "id": "lencerias"
+        },
+        "precio": 95
+    },
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo 01",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo 03",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo 04",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo 05",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta 01",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta 02",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 30
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta 03",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 30
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta 04",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta 05",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta 06",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta 07",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta 08",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 20
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000
+    }
+]
