@@ -1,17 +1,14 @@
 // VARIABLES
-const openButton = document.getElementById("open");
-const closeButton = document.getElementById("close");
-const menu = document.getElementById("menu");
-
-// FUNCTIONS
-function openMenu() {
-  menu.classList.add("open");
-}
-
-function closeMenu() {
-  menu.classList.remove("open");
-}
+const nav = document.querySelector("#nav");
+const abrir = document.querySelector("#abrir");
+const cerrar = document.querySelector("#cerrar");
 
 // EVENTS
-openButton.addEventListener("click", openMenu);
-closeButton.addEventListener("click", closeMenu);
+abrir.addEventListener("click", () =>{
+  nav.classList.add("visible");
+});
+
+cerrar.addEventListener("click", () =>{
+  nav.classList.remove("visible");
+});
+
