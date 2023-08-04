@@ -21,35 +21,28 @@ botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
 
 
 function cargarProductos(productosElegidos) {
-
     contenedorProductos.innerHTML = "";
-
     productosElegidos.forEach(producto => {
-
         const div = document.createElement("div");
         div.classList.add("producto");
         div.innerHTML = `
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">$${producto.precio}</p>
+                <p class="producto-precio">S/. ${producto.precio.toFixed(2)}</p>
                 <button class="producto-agregar" id="${producto.id}">Agregar</button>
             </div>
         `;
-
         contenedorProductos.append(div);
     })
-
     actualizarBotonesAgregar();
 }
 
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
-
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
         e.currentTarget.classList.add("active");
-
         if (e.currentTarget.id != "todos") {
             const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
             tituloPrincipal.innerText = productoCategoria.categoria.nombre;
@@ -59,13 +52,11 @@ botonesCategorias.forEach(boton => {
             tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
         }
-
     })
 });
 
 function actualizarBotonesAgregar() {
     botonesAgregar = document.querySelectorAll(".producto-agregar");
-
     botonesAgregar.forEach(boton => {
         boton.addEventListener("click", agregarAlCarrito);
     });
@@ -82,7 +73,7 @@ if (productosEnCarritoLS) {
     productosEnCarrito = [];
 }
 
-function agregarAlCarrito(e) {
+function agregarAlCarrito(e){
 
     Toastify({
         text: "Producto agregado",
@@ -120,7 +111,7 @@ function agregarAlCarrito(e) {
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }
 
-function actualizarNumerito() {
+function actualizarNumerito(){
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }

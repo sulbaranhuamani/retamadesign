@@ -39,7 +39,7 @@ header {
 
 /* fondo y tipografia*/
 body{
-  font-family: "roboto", sans-serif;
+  
   /*titulo*/
   .titulo-index {
     text-align: center;
@@ -50,7 +50,7 @@ body{
   /*cajas*/
   .cajas-nosotros {
     display: flex;
-    justify-content: space-between;
+    min-height:70vh;
   }
   .box {
     width: 50%;
@@ -59,27 +59,34 @@ body{
     border: 1px solid #ccc;
     padding: 10px;
   }
+  /*caja de productos*/
+  .container{
+    min-height: 63vh;
+  }
   /*css contacto*/
   .contacto {
     padding: 20px;
     background-color: #f1f1f1;
-  }
-  .contacto h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
+    min-height:73vh;
   }
   .contacto p {
     margin-bottom: 5px;
+    
   }
+  
 }
 
 /*footer*/
 .footer {
   padding: 20px;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
-
+.wrapper{
+  flex: 1;
+}
 
 @media screen and (max-width: 800px) {
   /**/
@@ -117,4 +124,6 @@ body{
     flex-direction: column;
     align-items: end;
   }
+
+
 }
