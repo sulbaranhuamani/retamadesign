@@ -50,7 +50,7 @@ body{
   /*cajas*/
   .cajas-nosotros {
     display: flex;
-    min-height:70vh;
+    min-height:60vh;
   }
   .box {
     width: 50%;
@@ -86,6 +86,14 @@ body{
 }
 .wrapper{
   flex: 1;
+}
+
+.whatsapp-logo {
+  position: fixed;
+  bottom: 50%; /* Ajusta la posición vertical */
+  right: 30px; /* Ajusta la posición horizontal */
+  z-index: 1000; /* Asegura que el logotipo esté por encima de otros elementos */
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {

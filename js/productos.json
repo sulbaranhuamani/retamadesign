@@ -2,7 +2,7 @@
     {
         "id":"lenceria-00",
         "titulo":"Lencería 00",
-        "imagen":"./img/lenceria/00.png",
+        "imagen":"./img/lenceria/00.jpg",
         "categoria":{
             "nombre":"Lencerías",
             "id":"lencerias"
