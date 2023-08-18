@@ -38,8 +38,6 @@ header {
 }
 
 /* fondo y tipografia*/
-body{
-  
   /*titulo*/
   .titulo-index {
     text-align: center;
@@ -73,9 +71,6 @@ body{
     margin-bottom: 5px;
     
   }
-  
-}
-
 /*footer*/
 .footer {
   padding: 20px;
