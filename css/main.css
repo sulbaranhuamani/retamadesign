@@ -35,8 +35,7 @@ a {
 }
 
 aside {
-    padding: 2rem;
-    padding-right: 0;
+    padding: 2rem 0 2rem 2rem;
     color: var(--clr-white);
     position: sticky;
     top: 0;
@@ -131,8 +130,7 @@ aside {
 
 main {
     background-color: var(--clr-white);
-    margin: 1rem;
-    margin-left: 0;
+    margin: 1rem 1rem 1rem 0;
     border-radius: 2rem;
     padding: 3rem;
 }
@@ -170,7 +168,6 @@ main {
 }
 
 .producto-agregar {
-    border: 0;
     background-color: var(--clr-white);
     color: var(--clr-main);
     padding: .4rem;
@@ -212,8 +209,7 @@ main {
     align-items: center;
     background-color: var(--clr-gray);
     color: var(--clr-main);
-    padding: .5rem;
-    padding-right: 1.5rem;
+    padding: .5rem 1.5rem .5rem .5rem;
     border-radius: 1rem;
 }
 
@@ -330,8 +326,7 @@ main {
     }
 
     main {
-        margin: 1rem;
-        margin-top: 0;
+        margin: 0 1rem 1rem;
         padding: 2rem;
     }
 
