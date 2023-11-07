@@ -682,7 +682,7 @@
     {
         "id": "abrigo-01",
         "titulo": "Abrigo 01",
-        "imagen": "./img/abrigos/01.jpg",
+        "imagen": "./img/SALUD/bd1.jpg",
         "categoria": {
             "nombre": "Abrigos",
             "id": "abrigos"
@@ -732,7 +732,7 @@
     {
         "id": "camiseta-01",
         "titulo": "Camiseta 01",
-        "imagen": "./img/camisetas/01.jpg",
+        "imagen": "./img/CHEF/c1.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -742,7 +742,7 @@
     {
         "id": "camiseta-02",
         "titulo": "Camiseta 02",
-        "imagen": "./img/camisetas/02.jpg",
+        "imagen": "./img/CHEF/I1.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -752,7 +752,7 @@
     {
         "id": "camiseta-03",
         "titulo": "Camiseta 03",
-        "imagen": "./img/camisetas/03.jpg",
+        "imagen": "./img/CHEF/d2.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -762,7 +762,7 @@
     {
         "id": "camiseta-04",
         "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/04.jpg",
+        "imagen": "./img/CHEF/g1.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -772,7 +772,7 @@
     {
         "id": "camiseta-05",
         "titulo": "Camiseta 05",
-        "imagen": "./img/camisetas/05.jpg",
+        "imagen": "./img/CHEF/p1.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -782,7 +782,7 @@
     {
         "id": "camiseta-06",
         "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/06.jpg",
+        "imagen": "./img/CHEF/g2.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -792,7 +792,7 @@
     {
         "id": "camiseta-07",
         "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/07.jpg",
+        "imagen": "./img/CHEF/d3.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
