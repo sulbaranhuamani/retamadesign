@@ -1,9 +1,15 @@
+/* CSS GENERAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*encabezamiento */
+
+body {
+  font-family: "Avenir", serif;
+}
+
+/* ENCABEZAMIENTO - FOOTER */
 header {
   display: flex;
   align-items: center;
@@ -37,7 +43,7 @@ header {
   display: none;
 }
 
-/* fondo y tipografia*/
+/* FONDO Y TOPOGRAFIA*/
   /*titulo*/
   .titulo-index {
     text-align: center;
@@ -45,81 +51,97 @@ header {
     font-weight: 300;
     margin: 1rem;
   }
-  /*cajas*/
-  .cajas-nosotros {
-    display: flex;
-    min-height:60vh;
-  }
-  .box {
-    width: 50%;
-    height: 190px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    padding: 10px;
-  }
 
   /*CAJA DE PRODUCTO*/
 .album {
   background-color: #f1f1f1;
   padding-top: 50px;
 }
-
 .container-1 {
   max-width: 600px;
   margin: 0 auto;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
 }
-
 .col-productos {
   flex: 1 1 100px;
   padding: 10px;
 }
-
 .card {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
   border-radius: 5px;
   padding: 10px;
 }
-
 .card-img {
   width: 100%;
   height: 100%;
 }
-
 .card-body {
   padding: 10px;
 }
-
 .card-title {
   font-weight: bold;
 }
-
 .btn-group {
   display: flex;
   flex-wrap: wrap;
 }
-
 .btn {
   margin: 10px;
 }
-
 .btn-primary {
   background-color: #d8d012;
   color: #fff;
 }
-
 .btn-outline-secondary {
   border: 1px solid #000;
   color: #000;
 }
 
 
+/** CSS NOSOTROS **/
 
-/*css contacto*/
+/* CAJAS */
+.cajas-nosotros {
+  display: flex;
+  min-height:20vh;
+}
+.box {
+  width: 50%;
+  height: 130px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.trabajos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.cuadro {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; /* Ajustar el ancho según la necesidad */
+  text-align: center;
+}
+.cuadro img {
+  max-width: 100%;
+  height: auto;
+}
+.cuadro h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.cuadro p {
+  margin-top: 5px;
+}
+
+/* CSS CONTACTOS */
   .contacto {
     padding: 20px;
     background-color: #f1f1f1;
@@ -130,19 +152,27 @@ header {
     
   }
 
-
-/*footer*/
+/* CSS DEL FOOTER */
 .footer {
   padding: 20px;
   margin: 0;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  justify-content: space-between;
+  width: 100%; /* Define el ancho del footer */
 }
-.wrapper{
-  flex: 1;
+.list-icons {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos 'li' uniformemente */
+  width: 100%; /* Define el ancho del 'list-icons' */
+  justify-content: center; /* Centra los elementos 'li' */
+}
+.list-icons li {
+  list-style: none; /* Elimina los puntos de la lista */
+  margin: 0 10px; /* Agrega margen entre los iconos */
+  /* Eliminar 'float: left' */
 }
 
+/*CSS DEL BOTON DE WHATSAPP*/
 .whatsapp-logo {
   position: fixed;
   bottom: 50%; /* Ajusta la posición vertical */

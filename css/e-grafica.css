@@ -1,8 +1,6 @@
-/* CSS DE TIENDA */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #d8d012;
     --clr-main-light: #785ce9;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -32,7 +30,7 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: var(--clr-main);
+    background-color: #961818;
 }
 
 aside {
